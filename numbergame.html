@@ -13,6 +13,7 @@ var playerTwo = prompt("p2. Enter num between 1 and 5");
  if ((playerOne <1 || playerOne >5) || (playerTwo <1 || playerTwo >5)){
  window.alert("you are a dirty cheater");
  gameOver();
+   return;
  }
  if (playerOne === playerTwo){
  window.alert("Tie score");
